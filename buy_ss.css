@@ -1,0 +1,345 @@
+
+/* DECLARATIONS------------------------------------------------------------------------------------------------------------------------*/
+@font-face{
+font-family:Amperzand;
+src:url("Amperzand.ttf");
+}
+
+@font-face{
+font-family:Marquee;
+src: url("MARQUEE_.ttf")
+}
+
+@font-face{
+font-family:Substance;
+src: url("substance.ttf")
+}
+
+@font-face{
+font-family:Dreamorp;
+src:url("dreamorp.ttf");
+}
+
+/*SECTIONS-------------------------------------------------------------------------------------------------------------------------------*/
+
+body{
+padding:0px;
+margin:0px;
+background-color:Gray;
+background-position:top-center;
+}
+
+header{
+background-color:black;
+}
+
+div#d101{
+background-color:black;
+margin-right:1200px;
+margin-top:100px;
+padding-top:0px;
+}
+
+div#d102{
+margin-top:-185px;
+padding-bottom:0px;
+}
+
+div#d103{
+background-color:lightgray;
+opacity:0.5;
+visibility:visible;
+}
+
+div#d105{
+margin-top:-47px;
+}
+
+footer{
+margin:0px;
+margin-bottom:-12px;
+padding:0px;
+background-color:black;
+color:white;
+}
+
+div#d106{
+visibility:hidden;
+}
+
+/*HEADINGS----------------------------------------------------------------------------------------------------------------------------------*/
+
+h1#h101{
+color:LemonChiffon;
+margin-left:450px;
+font-family:Marquee;
+font-size:50px;
+margin-top:80px;
+}
+
+h3#h301{
+font-family:Amperzand;
+color:black;
+margin-top:10px;
+margin-left:7px;
+font-size:24px;
+}
+
+h3#h302{
+color:black;
+font-family:Substance;
+}
+/* FORM AND FORM ELEMENTS-----------------------------------------------------------------------------------------------------------------*/
+
+form#f101{
+margin-left:550px;
+margin-top:-300px;
+margin-right:370px;
+margin-bottom:50px;
+padding:5px;
+background-color:lemonchiffon;
+color:black;
+border-color:black;
+border-width:10px;
+border-style:solid;
+border-radius:10px;
+text-align:center;
+opacity:0.8;
+}
+
+form#f102{
+margin-top:-220px;
+margin-left:1150px;
+padding:0px;
+color:white;
+}
+
+select{
+border-color:DimGray;
+border-width:3px;
+font-weight:bold;
+border-radius:5px;
+font-family:Dreamorp;
+font-size:15px;
+width:100px;
+height:30px;
+}
+
+input{
+border-width:2px;
+border-color:white;
+border-radius:5px;
+border-style:solid;
+font-weight:bold;
+}
+
+input#in101{
+margin-bottom:10px;
+border-width:2px;
+border-color:black;
+border-radius:5px;
+border-style:solid;
+font-weight:bold;
+font-style:oblique;
+font-size:15px;
+width:100px;
+height:30px;
+}
+
+/*IMAGES---------------------------------------------------------------------------------------------------------------------------------*/
+
+img#i101{
+width:190px;
+height:136px;
+margin-left:0px;
+padding:1px;
+border-style:double;
+border-width:4px;
+border-color:LemonChiffon;
+float:left;
+outline:none;
+border-style:groove;
+margin-top:-135px;
+}
+
+/*HYPERLINKS---------------------------------------------------------------------------------------------------------------------------------*/
+
+a#a101{
+text-decoration:none;
+background-color:black;
+font-size:25px;
+color:LemonChiffon;
+padding:13px;
+margin-left:1311px;
+}
+
+a#a103{
+text-decoration:none;
+border-color:black;
+border-width:2px;
+border-style:solid;
+font-size:25px;
+padding:13px;
+margin-left:1238px;
+margin-bottom:-1000px;
+visibility:hidden;
+background-color:violet;
+color:white;
+}
+
+a.link{
+display:block;
+text-align:center;
+text-decoration:none;
+background-color:#FFFFFF;
+color:LemonChiffon;
+padding:10px;
+border-radius:10px;
+margin-right:10px;
+margin-left:1px;
+margin-bottom:20px;
+transition:all 0.5s; 
+}
+
+a.link:hover{
+opacity:1.0;
+text-decoration:none;
+background-color:lemonchiffon;
+color:royalblue;
+}
+
+a#a101:hover{
+text-decoration:none;
+background-color:lemonchiffon;
+color:royalblue;	
+}
+
+a#a104{
+text-decoration:none;
+color:coral;
+}
+
+a#a105{
+text-decoration:none;
+color:hotpink;
+}
+
+a#a106{
+text-decoration:none;
+color:gold;
+}
+
+a#a107{
+text-decoration:none;
+color:lightskyblue;
+}
+
+a#a108{
+text-decoration:none;
+color:lawngreen;
+}
+
+a#a101:hover{
+text-decoration:none;
+background-color:lemonchiffon;
+color:royalblue;	
+}
+
+a#a100{
+margin-top:-100px;
+}
+
+a#a104:hover{
+text-decoration:none;
+background-color:coral;
+color:white;
+}
+
+a#a105:hover{
+text-decoration:none;
+background-color:hotpink;
+color:white;
+}
+
+a#a106:hover{
+text-decoration:none;
+background-color:gold;
+color:white;
+}
+
+a#a107:hover{
+text-decoration:none;
+background-color:lightskyblue;
+color:white;
+}
+
+a#a108:hover{
+text-decoration:none;
+background-color:lawngreen;
+color:white;
+}
+
+a#a109{
+color:black;
+text-decoration:none;
+}
+
+a.link1{
+text-align:center;
+text-decoration:none;
+background-color:cyan;
+padding:10px;
+border-radius:10px;
+margin-right:70px;
+margin-left:1170px;
+margin-bottom:20px;
+transition:all 0.5s; 
+margin-top:-300px;
+}
+
+/*---------------------------------------------TEXT---------------------------------------------------------------------------------------------------------*/
+pre{
+margin-left:150px;
+}
+
+.collapse {
+  display: none;
+}
+.collapse.in {
+  display: block;
+}
+tr.collapse.in {
+  display: table-row;
+}
+tbody.collapse.in {
+  display: table-row-group;
+}
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: .35s;
+       -o-transition-duration: .35s;
+          transition-duration: .35s;
+  -webkit-transition-property: height, visibility;
+       -o-transition-property: height, visibility;
+          transition-property: height, visibility;
+}
+
+[data-toggle="buttons"] > .btn input[type="radio"],
+[data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
+[data-toggle="buttons"] > .btn input[type="checkbox"],
+[data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
